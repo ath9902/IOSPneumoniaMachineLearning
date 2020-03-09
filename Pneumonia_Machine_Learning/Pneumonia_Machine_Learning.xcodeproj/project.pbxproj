@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E22714D2416FC810071703C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E22714C2416FC810071703C /* AppDelegate.swift */; };
+		6E22714F2416FC810071703C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E22714E2416FC810071703C /* SceneDelegate.swift */; };
+		6E2271512416FC810071703C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2271502416FC810071703C /* ViewController.swift */; };
+		6E2271542416FC810071703C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E2271522416FC810071703C /* Main.storyboard */; };
+		6E2271562416FC820071703C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E2271552416FC820071703C /* Assets.xcassets */; };
+		6E2271592416FC820071703C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E2271572416FC820071703C /* LaunchScreen.storyboard */; };
+		6E2271642416FC820071703C /* Pneumonia_Machine_LearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2271632416FC820071703C /* Pneumonia_Machine_LearningTests.swift */; };
+		6E22716F2416FC820071703C /* Pneumonia_Machine_LearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E22716E2416FC820071703C /* Pneumonia_Machine_LearningUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E2271602416FC820071703C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E2271412416FC810071703C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E2271482416FC810071703C;
+			remoteInfo = Pneumonia_Machine_Learning;
+		};
+		6E22716B2416FC820071703C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E2271412416FC810071703C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E2271482416FC810071703C;
+			remoteInfo = Pneumonia_Machine_Learning;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E2271492416FC810071703C /* Pneumonia_Machine_Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pneumonia_Machine_Learning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E22714C2416FC810071703C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E22714E2416FC810071703C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6E2271502416FC810071703C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6E2271532416FC810071703C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E2271552416FC820071703C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E2271582416FC820071703C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E22715A2416FC820071703C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E22715F2416FC820071703C /* Pneumonia_Machine_LearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pneumonia_Machine_LearningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E2271632416FC820071703C /* Pneumonia_Machine_LearningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pneumonia_Machine_LearningTests.swift; sourceTree = "<group>"; };
+		6E2271652416FC820071703C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E22716A2416FC820071703C /* Pneumonia_Machine_LearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pneumonia_Machine_LearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E22716E2416FC820071703C /* Pneumonia_Machine_LearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pneumonia_Machine_LearningUITests.swift; sourceTree = "<group>"; };
+		6E2271702416FC820071703C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E2271462416FC810071703C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E22715C2416FC820071703C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E2271672416FC820071703C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E2271402416FC810071703C = {
+			isa = PBXGroup;
+			children = (
+				6E22714B2416FC810071703C /* Pneumonia_Machine_Learning */,
+				6E2271622416FC820071703C /* Pneumonia_Machine_LearningTests */,
+				6E22716D2416FC820071703C /* Pneumonia_Machine_LearningUITests */,
+				6E22714A2416FC810071703C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E22714A2416FC810071703C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E2271492416FC810071703C /* Pneumonia_Machine_Learning.app */,
+				6E22715F2416FC820071703C /* Pneumonia_Machine_LearningTests.xctest */,
+				6E22716A2416FC820071703C /* Pneumonia_Machine_LearningUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E22714B2416FC810071703C /* Pneumonia_Machine_Learning */ = {
+			isa = PBXGroup;
+			children = (
+				6E22714C2416FC810071703C /* AppDelegate.swift */,
+				6E22714E2416FC810071703C /* SceneDelegate.swift */,
+				6E2271502416FC810071703C /* ViewController.swift */,
+				6E2271522416FC810071703C /* Main.storyboard */,
+				6E2271552416FC820071703C /* Assets.xcassets */,
+				6E2271572416FC820071703C /* LaunchScreen.storyboard */,
+				6E22715A2416FC820071703C /* Info.plist */,
+			);
+			path = Pneumonia_Machine_Learning;
+			sourceTree = "<group>";
+		};
+		6E2271622416FC820071703C /* Pneumonia_Machine_LearningTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E2271632416FC820071703C /* Pneumonia_Machine_LearningTests.swift */,
+				6E2271652416FC820071703C /* Info.plist */,
+			);
+			path = Pneumonia_Machine_LearningTests;
+			sourceTree = "<group>";
+		};
+		6E22716D2416FC820071703C /* Pneumonia_Machine_LearningUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E22716E2416FC820071703C /* Pneumonia_Machine_LearningUITests.swift */,
+				6E2271702416FC820071703C /* Info.plist */,
+			);
+			path = Pneumonia_Machine_LearningUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E2271482416FC810071703C /* Pneumonia_Machine_Learning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E2271732416FC820071703C /* Build configuration list for PBXNativeTarget "Pneumonia_Machine_Learning" */;
+			buildPhases = (
+				6E2271452416FC810071703C /* Sources */,
+				6E2271462416FC810071703C /* Frameworks */,
+				6E2271472416FC810071703C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pneumonia_Machine_Learning;
+			productName = Pneumonia_Machine_Learning;
+			productReference = 6E2271492416FC810071703C /* Pneumonia_Machine_Learning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E22715E2416FC820071703C /* Pneumonia_Machine_LearningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E2271762416FC820071703C /* Build configuration list for PBXNativeTarget "Pneumonia_Machine_LearningTests" */;
+			buildPhases = (
+				6E22715B2416FC820071703C /* Sources */,
+				6E22715C2416FC820071703C /* Frameworks */,
+				6E22715D2416FC820071703C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E2271612416FC820071703C /* PBXTargetDependency */,
+			);
+			name = Pneumonia_Machine_LearningTests;
+			productName = Pneumonia_Machine_LearningTests;
+			productReference = 6E22715F2416FC820071703C /* Pneumonia_Machine_LearningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E2271692416FC820071703C /* Pneumonia_Machine_LearningUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E2271792416FC820071703C /* Build configuration list for PBXNativeTarget "Pneumonia_Machine_LearningUITests" */;
+			buildPhases = (
+				6E2271662416FC820071703C /* Sources */,
+				6E2271672416FC820071703C /* Frameworks */,
+				6E2271682416FC820071703C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E22716C2416FC820071703C /* PBXTargetDependency */,
+			);
+			name = Pneumonia_Machine_LearningUITests;
+			productName = Pneumonia_Machine_LearningUITests;
+			productReference = 6E22716A2416FC820071703C /* Pneumonia_Machine_LearningUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E2271412416FC810071703C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Austin Heisey";
+				TargetAttributes = {
+					6E2271482416FC810071703C = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					6E22715E2416FC820071703C = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 6E2271482416FC810071703C;
+					};
+					6E2271692416FC820071703C = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 6E2271482416FC810071703C;
+					};
+				};
+			};
+			buildConfigurationList = 6E2271442416FC810071703C /* Build configuration list for PBXProject "Pneumonia_Machine_Learning" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E2271402416FC810071703C;
+			productRefGroup = 6E22714A2416FC810071703C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E2271482416FC810071703C /* Pneumonia_Machine_Learning */,
+				6E22715E2416FC820071703C /* Pneumonia_Machine_LearningTests */,
+				6E2271692416FC820071703C /* Pneumonia_Machine_LearningUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E2271472416FC810071703C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E2271592416FC820071703C /* LaunchScreen.storyboard in Resources */,
+				6E2271562416FC820071703C /* Assets.xcassets in Resources */,
+				6E2271542416FC810071703C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E22715D2416FC820071703C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E2271682416FC820071703C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E2271452416FC810071703C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E2271512416FC810071703C /* ViewController.swift in Sources */,
+				6E22714D2416FC810071703C /* AppDelegate.swift in Sources */,
+				6E22714F2416FC810071703C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E22715B2416FC820071703C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E2271642416FC820071703C /* Pneumonia_Machine_LearningTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E2271662416FC820071703C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E22716F2416FC820071703C /* Pneumonia_Machine_LearningUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E2271612416FC820071703C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E2271482416FC810071703C /* Pneumonia_Machine_Learning */;
+			targetProxy = 6E2271602416FC820071703C /* PBXContainerItemProxy */;
+		};
+		6E22716C2416FC820071703C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E2271482416FC810071703C /* Pneumonia_Machine_Learning */;
+			targetProxy = 6E22716B2416FC820071703C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E2271522416FC810071703C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E2271532416FC810071703C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E2271572416FC820071703C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E2271582416FC820071703C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E2271712416FC820071703C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E2271722416FC820071703C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E2271742416FC820071703C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Pneumonia_Machine_Learning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AustinHeisey.Pneumonia-Machine-Learning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E2271752416FC820071703C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Pneumonia_Machine_Learning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AustinHeisey.Pneumonia-Machine-Learning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E2271772416FC820071703C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Pneumonia_Machine_LearningTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AustinHeisey.Pneumonia-Machine-LearningTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pneumonia_Machine_Learning.app/Pneumonia_Machine_Learning";
+			};
+			name = Debug;
+		};
+		6E2271782416FC820071703C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Pneumonia_Machine_LearningTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AustinHeisey.Pneumonia-Machine-LearningTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pneumonia_Machine_Learning.app/Pneumonia_Machine_Learning";
+			};
+			name = Release;
+		};
+		6E22717A2416FC820071703C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Pneumonia_Machine_LearningUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AustinHeisey.Pneumonia-Machine-LearningUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pneumonia_Machine_Learning;
+			};
+			name = Debug;
+		};
+		6E22717B2416FC820071703C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Pneumonia_Machine_LearningUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AustinHeisey.Pneumonia-Machine-LearningUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pneumonia_Machine_Learning;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E2271442416FC810071703C /* Build configuration list for PBXProject "Pneumonia_Machine_Learning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E2271712416FC820071703C /* Debug */,
+				6E2271722416FC820071703C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E2271732416FC820071703C /* Build configuration list for PBXNativeTarget "Pneumonia_Machine_Learning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E2271742416FC820071703C /* Debug */,
+				6E2271752416FC820071703C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E2271762416FC820071703C /* Build configuration list for PBXNativeTarget "Pneumonia_Machine_LearningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E2271772416FC820071703C /* Debug */,
+				6E2271782416FC820071703C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E2271792416FC820071703C /* Build configuration list for PBXNativeTarget "Pneumonia_Machine_LearningUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E22717A2416FC820071703C /* Debug */,
+				6E22717B2416FC820071703C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E2271412416FC810071703C /* Project object */;
+}
