@@ -1,0 +1,16 @@
+PODS:
+  - Resolver (1.1.2)
+
+DEPENDENCIES:
+  - Resolver
+
+SPEC REPOS:
+  trunk:
+    - Resolver
+
+SPEC CHECKSUMS:
+  Resolver: e04ca5a9a19906f2e5cdceb2b90edd3b5daed049
+
+PODFILE CHECKSUM: a1e034cfd33b59fe23e258568b18d5a3aa67dcc1
+
+COCOAPODS: 1.9.0
